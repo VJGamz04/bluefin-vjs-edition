@@ -17,6 +17,8 @@ modules:
     repos:
       copr:
         - sneexy/floorp
+        - deltacopy/darkly
+        - gundulabs/gaze        
     install:
       packages:
         - floorp
@@ -24,6 +26,14 @@ modules:
         - waydroid
         - qt5ct
         - qt6ct
+        - darkly
+        - zsh
+        - mangohud
+        - gamescope
+        - java-latest-openjdk
+        - gaze
+        - gaze-gui
+        - gaze-gnome-extension
     remove:
       packages:
         - firefox
@@ -36,7 +46,8 @@ modules:
         install:
           - io.github.Foldex.AdwSteamGtk
           - dev.qwery.AddWater
-
+          - com.moonlight_stream.Moonlight
+          
       - scope: user
 
   - type: signing
